@@ -3,3 +3,5 @@ gcc client.c -o client
 
 ./server portnumber
 ./client 127.0.0.1 portnumber
+gcc server.c -o server -lm
+gcc server.c -o server -lstdc++
